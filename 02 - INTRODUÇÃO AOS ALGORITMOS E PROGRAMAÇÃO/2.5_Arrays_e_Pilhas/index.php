@@ -74,4 +74,4 @@ echo "Equipe Programador WEB" . PHP_EOL;
 foreach ($team as $key => $value) {
 
     echo "<p>$value é o $key do time!</p>";
-}
+} 
