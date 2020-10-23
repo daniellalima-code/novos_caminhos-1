@@ -18,5 +18,17 @@
 
 function checkPalindrome($inputString)
 {
-    // CÓDIGO
+$palavra =($inputString);
+$rpalavra = strrev($palavra);
+
+echo  "<h1>{$rpalavra}</h1>";
+if ($palavra == $rpalavra){
+
+    echo "true";
+    
+}else{       
+        echo "false";
 }
+    
+}
+checkPalindrome("zzzazzazz");

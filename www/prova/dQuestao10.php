@@ -19,5 +19,16 @@
 
 function reverseInParentheses($inputString)
 {
-    // CÓDIGO
+$palavranormal = "" ;
+$palavraemparenteses = "";
+
+    if ($palavranormal) {
+        
+        echo strrev ("$palavranormal");
+    
+    }elseif ($palavraemparenteses);
+    
+    echo $palavranormal, strrev ("$palavraemparenteses") ;
+
 }
+reverseInParentheses("bola");

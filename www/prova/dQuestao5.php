@@ -19,5 +19,11 @@
 
 function almostIncreasingSequence($sequence)
 {
-    // CÓDIGO
+$array = array(3,7,5,4);
+sort($array);
+
+
+    
+    
+  
 }

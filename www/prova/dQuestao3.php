@@ -17,5 +17,20 @@
 
 function adjacentElementsProduct($inputArray)
 {
-    // CÓDIGO
-}
+
+    $maiorProduto = 0;
+    
+    for ($i = 0; $i < count ($inputArray); $i++){
+        $prod = $inputArray[$i] * $inputArray [$i+1];
+        if($prod > $maiorProduto){
+            $maiorProduto = $prod;
+        }
+    }
+
+    echo "<h1>$maiorProduto</h1>";
+
+
+} 
+
+$vetor = [5, 6, -4, 2, 3, 2, -23];
+adjacentElementsProduct($vetor);
